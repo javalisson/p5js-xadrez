@@ -17,6 +17,7 @@ function draw() {
 	background(0, 0, 0);
 
 	desenha_linha_1(0);
+	desenha_linha_2(75);
 	desenha_linha_1(150);
 	desenha_linha_1(300);
 	desenha_linha_1(450);
@@ -46,5 +47,32 @@ function desenha_linha_1(y) {
 	rect(450, y, 75, 75);
 	// desenha o 4o quadrado branco
 	fill(255, 255, 255);
+	rect(525, y, 75, 75);
+}
+
+function desenha_linha_2(y) {
+	// desenha o 1o quadrado preto
+	fill(255, 255, 255);
+	rect(0, y, 75, 75);
+	// desenha o 1o quadrado branco
+	fill(0, 0, 0);
+	rect(75, y, 75, 75);
+	// desenha o 2o quadrado preto
+	fill(255, 255, 255);
+	rect(150, y, 75, 75);
+	// desenha o 2o quadrado branco
+	fill(0, 0, 0);
+	rect(225, y, 75, 75);
+	// desenha o 3o quadrado preto
+	fill(255, 255, 255);
+	rect(300, y, 75, 75);
+	// desenha o 3o quadrado branco
+	fill(0, 0, 0);
+	rect(375, y, 75, 75);
+	// desenha o 4o quadrado preto
+	fill(255, 255, 255);
+	rect(450, y, 75, 75);
+	// desenha o 4o quadrado branco
+	fill(0, 0, 0);
 	rect(525, y, 75, 75);
 }
