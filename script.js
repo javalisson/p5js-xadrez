@@ -16,11 +16,18 @@ function draw() {
 	// pinta o fundo de preto
 	background(0, 0, 0);
 
+	desenha_tabuleiro();
+}
+
+function desenha_tabuleiro() {
 	desenha_linha_1(0);
 	desenha_linha_2(75);
 	desenha_linha_1(150);
+	desenha_linha_2(225);
 	desenha_linha_1(300);
+	desenha_linha_2(375);
 	desenha_linha_1(450);
+	desenha_linha_2(525);
 }
 
 function desenha_linha_1(y) {
