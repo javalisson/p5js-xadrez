@@ -16,28 +16,35 @@ function draw() {
 	// pinta o fundo de preto
 	background(0, 0, 0);
 
+	desenha_linha_1(0);
+	desenha_linha_1(150);
+	desenha_linha_1(300);
+	desenha_linha_1(450);
+}
+
+function desenha_linha_1(y) {
 	// desenha o 1o quadrado preto
 	fill(0, 0, 0);
-	rect(0, 0, 75, 75);
+	rect(0, y, 75, 75);
 	// desenha o 1o quadrado branco
 	fill(255, 255, 255);
-	rect(75, 0, 75, 75);
+	rect(75, y, 75, 75);
 	// desenha o 2o quadrado preto
 	fill(0, 0, 0);
-	rect(150, 0, 75, 75);
+	rect(150, y, 75, 75);
 	// desenha o 2o quadrado branco
 	fill(255, 255, 255);
-	rect(225, 0, 75, 75);
+	rect(225, y, 75, 75);
 	// desenha o 3o quadrado preto
 	fill(0, 0, 0);
-	rect(300, 0, 75, 75);
+	rect(300, y, 75, 75);
 	// desenha o 3o quadrado branco
 	fill(255, 255, 255);
-	rect(375, 0, 75, 75);
+	rect(375, y, 75, 75);
 	// desenha o 4o quadrado preto
 	fill(0, 0, 0);
-	rect(450, 0, 75, 75);
+	rect(450, y, 75, 75);
 	// desenha o 4o quadrado branco
 	fill(255, 255, 255);
-	rect(525, 0, 75, 75);
+	rect(525, y, 75, 75);
 }
